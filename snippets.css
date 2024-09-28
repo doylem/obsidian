@@ -1,0 +1,10 @@
+/* Inline title fun */
+.inline-title {
+  font-size: calc(24px + (36 - 14) * ((100vw - 300px) / (1600 - 300)));
+  line-height: 1.2;
+  font-family: "Archivo", "Archivo SemiBold", system-ui, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+  background: -webkit-radial-gradient(#a286d6, #ef7d92);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
